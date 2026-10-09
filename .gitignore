@@ -1,0 +1,19 @@
+/vendor/
+/.env
+
+# Runtime files in writable/ (keep each folder via its index.html so a fresh clone works)
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*
+!/writable/logs/index.html
+/writable/session/*
+!/writable/session/index.html
+/writable/uploads/*
+!/writable/uploads/index.html
+/writable/debugbar/*
+!/writable/debugbar/index.html
+
+# Uploaded images (keep the folder and its .htaccess)
+/public/uploads/*
+!/public/uploads/.htaccess
+!/public/uploads/.gitkeep
